@@ -1,0 +1,77 @@
+# ===============================
+# Python / Django
+# ===============================
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.log
+*.sqlite3
+*.db
+
+# Django
+*.pot
+*.mo
+staticfiles/
+media/
+.env
+.env.*
+
+# Migrations cache (keep migration files!)
+**/migrations/__pycache__/
+
+# ===============================
+# Virtual Environments
+# ===============================
+venv/
+.env/
+.venv/
+
+# ===============================
+# Node / Vite / React
+# ===============================
+node_modules/
+dist/
+build/
+.vite/
+
+# ===============================
+# Docker
+# ===============================
+*.tar
+docker-data/
+postgres_data/
+.dockerignore
+
+# ===============================
+# OS / Editor
+# ===============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# VS Code
+.vscode/
+
+# PyCharm
+.idea/
+
+# ===============================
+# Logs & Runtime
+# ===============================
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# ===============================
+# Coverage / Testing
+# ===============================
+.coverage
+htmlcov/
+pytest_cache/
+
+# ===============================
+# Sensor / Runtime artifacts
+# ===============================
+*.pid
