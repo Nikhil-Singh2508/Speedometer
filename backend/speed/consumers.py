@@ -33,7 +33,7 @@ class SensorConsumer(AsyncWebsocketConsumer):
         data = json.loads(text_data)
         speed = data.get("speed", 0)
 
-        # store in DB (SYNC ORM → ASYNC SAFE)
+        # store in DB 
         await sync_to_async(SpeedData.objects.create)(speed=speed)
 
         # broadcast to UI clients
